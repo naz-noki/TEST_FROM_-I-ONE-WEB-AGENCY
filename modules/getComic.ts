@@ -13,7 +13,10 @@ import IcastomComics from '~/types/IcastomComics';
 //   }
 
 export default (id:number):IcastomComics => {
-  let img:string = comics[id].split(' ').join('_')+'_2x.png';
+  let img:string = comics[id];
+  if(img !== undefined && typeof(img) === 'string'){
+    img = img.split(' ').join('_')+'_2x.png';
+  }
   return {
     name: comics[id],
     img: `https://imgs.xkcd.com/comics/${img}`,
