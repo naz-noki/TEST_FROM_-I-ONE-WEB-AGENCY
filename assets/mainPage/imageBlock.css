@@ -1,0 +1,22 @@
+.imageBlock{
+    width: 100%;
+    min-height: 508px;
+    background-image: url('/img/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;   
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.imageBlock__text{
+    width: max-content;
+    height: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}

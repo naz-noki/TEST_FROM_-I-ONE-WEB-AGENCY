@@ -1,0 +1,108 @@
+.comics {
+    width: 780px;
+    height: 230px;
+    margin: 90px auto;
+}
+.comics__title {
+    width: 336px;
+    height: max-content;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.comics__controllers {
+    width: 780px;
+    height: 65px;
+    margin: 35px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controllers__skip {
+    cursor: pointer;
+    width: 80px;
+    height: 65px;
+    border: none;
+    background: #0A2037;
+    transition: 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controllers__skip:hover {
+    background: transparent;
+    transition: 150ms;
+}
+.controllers__skip__img {
+    width: 14px;
+    height: 19px;
+}
+.controllers__next {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #F26A15;
+    border-radius: 50%;
+    background: #F26A15;
+    transition: 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controllers__next:hover {
+    background: transparent;
+    transition: 150ms;
+    border: 1px solid #dfdfdf;
+}
+.controllers__next__img {
+    width: 11px;
+    height: 24px;
+}
+.controllers__random {
+    cursor: pointer;
+    width: 320px;
+    height: 65px;
+    border: 1px solid #F26A15;
+    background: #F26A15;
+    transition: 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controllers__random:hover {
+    background: transparent;
+    transition: 150ms;
+    .controllers__random__text {color: #F26A15};
+}
+.controllers__random__text {
+    transition: 200ms;
+    width: max-content;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+.comics__imgBlock {
+    width: 780px;
+    height: 648px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comics__img{
+    max-width: 780px;
+    max-height: 648px;
+}
